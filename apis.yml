@@ -1,7 +1,25 @@
 aid: micropointbio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/micropointbio.png
 name: micropointbio
-description: micropointbio is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: MicroPoint Biotechnology (Shenzhen MicroPoint Biotechnology Co., Ltd. / 微点生物)
+  is a biochip technology company focused on the R&D, manufacturing and sale of MEMS-based
+  Lab-on-a-Chip products. It is one of the few firms to master microfluidic-chip core technology
+  at mass-production scale, and describes itself as the only POCT manufacturer that develops and
+  produces both the biochips and their companion detection instruments, spanning fluorescence
+  immunoassay, electrochemical coagulation testing and infectious-disease (including COVID) diagnostics.
+  Surfaced as a portfolio company of Qiming Venture Partners and enriched here; no public developer,
+  API, SDK or documentation surface was found.
 url: https://raw.githubusercontent.com/api-evangelist/micropointbio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Medical Devices
+- Diagnostics
+- POCT
+- In Vitro Diagnostics
+- Biochips
+- Microfluidics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/micropointbio-domain-security.yml
 - type: Website
   url: https://micropointbio.com.cn
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
